@@ -10,10 +10,10 @@
 - name: channel_twitter
   enabled: true
 - name: ip_lookup
-  enabled: false
+  enabled: true
 - name: disable_branding
-  enabled: false
-  premium: true
+  enabled: true
+  premium: false
 - name: email_continuity_on_api_channel
   enabled: false
 - name: help_center
@@ -48,7 +48,7 @@
 - name: voice_recorder
   enabled: true
 - name: mobile_v2
-  enabled: false
+  enabled: true
 - name: channel_website
   enabled: true
 - name: campaigns
@@ -62,33 +62,33 @@
 - name: auto_resolve_conversations
   enabled: true
 - name: custom_reply_email
-  enabled: false
+  enabled: true
 - name: custom_reply_domain
-  enabled: false
+  enabled: true
 - name: audit_logs
-  enabled: false
-  premium: true
+  enabled: true
+  premium: false
 - name: response_bot
-  enabled: false
-  premium: true
+  enabled: true
+  premium: false
 - name: message_reply_to
-  enabled: false
+  enabled: true
   help_url: https://chwt.app/hc/reply-to
 - name: insert_article_in_reply
-  enabled: false
+  enabled: true
 - name: inbox_view
-  enabled: false
+  enabled: true
 - name: sla
-  enabled: false
-  premium: true
+  enabled: true
+  premium: false
   help_url: https://chwt.app/hc/sla
 - name: help_center_embedding_search
   enabled: false
-  premium: true
+  premium: false
 - name: linear_integration
   enabled: false
 - name: captain_integration
-  enabled: false
+  enabled: true
 - name: custom_roles
   enabled: false
-  premium: true
+  premium: false
